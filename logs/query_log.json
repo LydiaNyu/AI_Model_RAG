@@ -1208,5 +1208,55 @@
     "full_response": "Using AI assistants does appear to improve developer productivity. According to Weber2024, developers may experience significant productivity gains when programming with large language models, as these tools allow developers to explore and refine usage patterns, learn the intricacies of the systems, and generally use them better over time (Weber2024).\n\nHowever, there are notable security risks associated with the use of AI assistants. Perry2023 highlights that participants who used AI code assistants were more likely to write insecure code compared to those who did not use such tools. This study found that users with AI assistance were more prone to introducing security vulnerabilities in their code, yet they often believed their code was secure (Perry2023). This suggests a potential over-reliance on AI tools, which may lead to a false sense of security among developers.\n\nIn summary, while AI assistants can enhance productivity, they also pose significant security risks, particularly in terms of producing insecure code and fostering overconfidence in the security of the code produced.",
     "model_name": "gpt-4o",
     "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T04:36:15.692885+00:00",
+    "query": "Does using AI assistants improve developer productivity, and are there any security risks?",
+    "retrieved_source_ids": [
+      "Weber2024",
+      "Perry2023"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 1,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "Do Users Write More Insecure Code with AI Assistants?\nNeil Perry∗\nStanford University\nMegha Srivastava∗\nStanford University\nDeepak Kumar\nStanford University / UC\nSan Diego\nDan Boneh\nStanford University\nABSTRACT\nAI code assistants have emerged as powerful tools that can aid in\nthe software developmen..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 22,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "software development. Not only does this mean that new tools may emerge that upset established\npatterns again, but it will also affect how developers use these tools. Given more time to get familiar\nwith them, developers may explore and refine usage patterns, learn the intricacies of these systems,..."
+      },
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 13,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "Finally, many AI assistants are built on models that are trained\non insecure code found on GitHub. Running static analysis tools\nover these inputs and only training on ones that pass security\nchecks, as well as designing more clever ways of leveraging library\ndocumentation and “expert” code samples..."
+      },
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 1,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or\nrepublish, to post on servers or to redistribute to lists, requires prior specific permission\nand/or a fee. Request permissions from permissions@acm.org.\nCCS ’23, November 26–30, 2023, Copenhagen, Denmark.\n© 2023..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "Using AI assistants does appear to improve developer productivity. According to Weber2024, AI assistants can lead to significant productivity gains as developers become more familiar with these tools and learn to use them more effectively over time (Weber2024). However, there are notable security risks associated with the use of AI assistants. Perry2023 highlights that participants using AI code assistants were more likely to write insecure code compared to those who did not use such tools. This suggests that while productivity may increase, there is a trade-off with security, as the AI-generated code may introduce vulnerabilities (Perry2023). Additionally, the AI models are often trained on insecure code, which can further exacerbate security issues (Perry2023). Therefore, while AI assistants can enhance productivity, they also pose significant security challenges that need to be addressed.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
   }
 ]
