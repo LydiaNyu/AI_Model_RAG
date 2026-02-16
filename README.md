@@ -84,7 +84,7 @@ python rag_engine.py
 When prompted, enter a test question:
 
 ```
-📚 Question: What does the corpus say about the impact of AI on 'Code Churn'?
+📚 Question: Does using AI assistants improve developer productivity, and are there any security risks?
 ```
 
 **Expected Output:**
