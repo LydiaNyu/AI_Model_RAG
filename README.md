@@ -70,7 +70,7 @@ cd src
 python ingest.py
 ```
 
-### Step 5: Run the RAG Engine
+### Step 5: Run the RAG Engine (Wait 20 seconds for this to load)
 
 Run the RAG engine directly:
 
