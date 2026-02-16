@@ -1,0 +1,1112 @@
+[
+  {
+    "timestamp": "2026-02-16T02:43:28.658420+00:00",
+    "query": "How much faster did the treatment group complete the task in the Peng2023 study?",
+    "retrieved_source_ids": [
+      "Choudhuri2024",
+      "Peng2023"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Peng2023",
+        "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+        "year": 2023,
+        "page": 2,
+        "authors": "Peng, S. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "did not have access to GitHub Copilot but was otherwise unconstrained, i.e., they were free to\nuse internet search and Stack Overﬂow to complete the task.\nThe performance difference between treated and control groups are statistically and practi-\ncally signiﬁcant: the treated group completed the tas..."
+      },
+      {
+        "source_id": "Peng2023",
+        "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+        "year": 2023,
+        "page": 5,
+        "authors": "Peng, S. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "Most of the participants are in the age group of 25-34 and come from India and Pakistan.\nThis group of participants is also characterized by relatively lower income (median yearly in-\ncome between $10,000-$19,000) compared to US standards but high education level (the ma-\njority have a 4-year degree..."
+      },
+      {
+        "source_id": "Peng2023",
+        "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+        "year": 2023,
+        "page": 17,
+        "authors": "Peng, S. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "Figure 6: Time to task completion\nNote: Distribution of time to task completion between treated (blue) and control (orange) groups\n17"
+      },
+      {
+        "source_id": "Choudhuri2024",
+        "title": "How Far Are We? The Triumphs and Trials of Generative AI in Learning Software Engineering",
+        "year": 2024,
+        "page": 5,
+        "authors": "Choudhuri, R. et al.",
+        "tags": "Education,Skill_Decay",
+        "content_snippet": "Senior 4 5 9\nEnrolled in SE Courses 3 4 7\nEnrolled in SE Courses + Worked on SE\nProjects\n8 7 15\nTotal 11 11 22\nStudy Protocol: All studies were in lab sessions at the University\nlab with up to 3 participants at a time, following the university IRB\nprotocol. The study proceeded as follows: the partic..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "In the Peng2023 study, the treatment group, which had access to GitHub Copilot, completed the task 55.8% faster than the control group. The average completion time for the treatment group was 71.17 minutes, compared to 160.89 minutes for the control group. This performance difference is statistically significant, with a p-value of 0.0017 and a 95% confidence interval for the improvement ranging from 21% to 89% (Peng2023).",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:43:32.731957+00:00",
+    "query": "What did Weber2024 find regarding the impact of AI on task completion time?",
+    "retrieved_source_ids": [
+      "Choudhuri2024",
+      "Weber2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 5,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "reduction in task completion time by more than half. Participants noted the increase in speed but\nestimated it to be only about 35%. Furthermore, while the control group took a bit longer, the\ntask success rate was not significantly different. In contrast, Vaithilingam et al . [60] found that\npartic..."
+      },
+      {
+        "source_id": "Choudhuri2024",
+        "title": "How Far Are We? The Triumphs and Trials of Generative AI in Learning Software Engineering",
+        "year": 2024,
+        "page": 5,
+        "authors": "Choudhuri, R. et al.",
+        "tags": "Education,Skill_Decay",
+        "content_snippet": "tasks: Task 1 was allotted 20 minutes, and tasks 2 and 3 had 10\nminutes each. This change facilitated on-time conclusions and time\nfor briefing and questionnaires (40 minutes).\nOur sandboxing also revealed difficulties with the AAR/AI pro-\ncess: participants found it burdensome, resulting in sparse..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 16,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "times as many requirements per minute as their peers.\nWhile we set the task to take approximately 15 minutes, not all participants took this much\ntime. While the majority spent about this much or slightly longer on the tasks, two participants\ntook less than half the time. P19 completed the task in t..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 14,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "Figure 7 with the AI assistants displaying significantly different task completion times than the\ncontrol condition (auto-complete: 𝑝 = 0.028, conversational: 𝑝 = 0.025, pairwise Wilcoxon test,\nProc. ACM Hum.-Comput. Interact., Vol. 8, No. EICS, Article 256. Publication date: June 2024."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "Weber2024 found that the use of AI in programming significantly reduced task completion time. Specifically, there was a reduction in task completion time by more than half when using AI, although participants estimated the increase in speed to be about 35% (Weber2024 - Page 5). Additionally, the study noted that participants using AI assistants displayed significantly different task completion times compared to the control condition, with statistical significance reported (𝑝 = 0.028 for auto-complete and 𝑝 = 0.025 for conversational AI, using a pairwise Wilcoxon test) (Weber2024 - Page 14). However, it was also observed that some participants did not thoroughly verify the AI-generated code, which could lead to erroneous solutions and time-consuming debugging (Weber2024 - Page 16).",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:43:35.439056+00:00",
+    "query": "Does GitHub Copilot significantly improve task success rates according to Vaithilingam2022?",
+    "retrieved_source_ids": [
+      "Yetistiren2023",
+      "Weber2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 5,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "reduction in task completion time by more than half. Participants noted the increase in speed but\nestimated it to be only about 35%. Furthermore, while the control group took a bit longer, the\ntask success rate was not significantly different. In contrast, Vaithilingam et al . [60] found that\npartic..."
+      },
+      {
+        "source_id": "Yetistiren2023",
+        "title": "Evaluating the Code Quality of AI-Assisted Code Generation Tools",
+        "year": 2023,
+        "page": 41,
+        "authors": "Yetiştiren, B. et al.",
+        "tags": "Quality,Benchmarking",
+        "content_snippet": "was implemented by Pearce et al. (2021). They evaluated the vulnerabilities in the\ncode generated by Copilot. It was determined that 40% of generated programs were\nvulnerable. These results differed from our Code Security results; we believe that the\ncharacteristics of our dataset caused the differe..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 5,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "significantly better scores, there was a shift in tasks, with more time being spent on debugging.\nWith GitHub now offering both types of systems, GitHub Copilot and GitHub Copilot Chat,\nthey are in a position to provide additional insights from their customer data and evaluations.\nAccording to that,..."
+      },
+      {
+        "source_id": "Yetistiren2023",
+        "title": "Evaluating the Code Quality of AI-Assisted Code Generation Tools",
+        "year": 2023,
+        "page": 31,
+        "authors": "Yetiştiren, B. et al.",
+        "tags": "Quality,Benchmarking",
+        "content_snippet": "while GitHub Copilot v1.7.4421 had passed suggestions for 28.7% the unit tests and\naverage correctness for 53.6% of all problems. This data indicates that there is a notable\nimprovement of 62% in GitHub Copilot’s performance in terms of passed suggestions\nfor unit tests and there is an improvement o..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "According to Vaithilingam et al. (2022), GitHub Copilot did not cause a significant improvement in task success rates. The study found that participants failed to complete tasks more often using Copilot compared to just using IntelliSense, and it did not have a significant impact on task completion time (Yetistiren2023). Additionally, it was noted that an overreliance on the AI led to erroneous solutions being accepted without thorough review, resulting in time-consuming debugging (Weber2024). Therefore, the evidence suggests that GitHub Copilot does not significantly improve task success rates according to Vaithilingam2022.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:43:41.033699+00:00",
+    "query": "What is the 'bimodal' interaction pattern (Acceleration vs Exploration) described in Barke2023?",
+    "retrieved_source_ids": [
+      "Barke2023"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Barke2023",
+        "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
+        "year": 2023,
+        "page": 5,
+        "authors": "Barke, S. et al.",
+        "tags": "HCI,Interaction_Modes",
+        "content_snippet": "2016]. We describe our process below.\nWe began our study with the blank slate question: “How do programmers interact with Copilot?”\nOur bimodal theory of acceleration and exploration was not yet formed. During each session, we\ntook notes to guide our semi-structured interview. After each session, we..."
+      },
+      {
+        "source_id": "Barke2023",
+        "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
+        "year": 2023,
+        "page": 18,
+        "authors": "Barke, S. et al.",
+        "tags": "HCI,Interaction_Modes",
+        "content_snippet": "1:18 Shraddha Barke, Michael B. James, and Nadia Polikarpova\nAcceleration Exploration\n0\n20\n40\n60\n80\n100% Time spent in each validation strategy\nValidation strategies in the two interaction modes\nExamination\nExecution\nDocumentation\n(a) Aggregate time, split by interaction mode.\nChat Server\n(n=5)\nChat..."
+      },
+      {
+        "source_id": "Barke2023",
+        "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
+        "year": 2023,
+        "page": 7,
+        "authors": "Barke, S. et al.",
+        "tags": "HCI,Interaction_Modes",
+        "content_snippet": "bimodal theory. Each named paragraph heading is an aspect of that hypothesis.\n4.1 Acceleration\nAcceleration is characterized by the programmer being “in the zone” and actively “driving” the de-\nvelopment, while occasionally relying on Copilot to complete their thought process. A programmer\nwill ofte..."
+      },
+      {
+        "source_id": "Barke2023",
+        "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
+        "year": 2023,
+        "page": 16,
+        "authors": "Barke, S. et al.",
+        "tags": "HCI,Interaction_Modes",
+        "content_snippet": "5.1.1 Time spent in interaction modes. The total amount of study time spent by all participants\ninteracting with Copilot in exploration mode (248.6 minutes) is more than twice that in acceleration\nmode (104.7 minutes). This is not surprising, since exploration is the “slow System 2” mode, where\neach..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "The 'bimodal' interaction pattern described in Barke2023 refers to two distinct modes of interaction that programmers have with code-generating models like Copilot: Acceleration and Exploration.\n\n1. **Acceleration Mode**: In this mode, programmers are described as being \"in the zone\" and actively driving the development process. They use Copilot as an \"intelligent autocomplete\" to complete their thought process quickly without losing focus. This mode is characterized by programmers accepting Copilot's suggestions with minimal deliberation, as they already have a clear idea of the code they want to write and use Copilot to type it out faster than they could themselves (Barke2023, Page 7).\n\n2. **Exploration Mode**: This mode involves a more deliberate and slower interaction, often referred to as the \"slow System 2\" mode. Programmers spend more time in this mode as it involves exploring different possibilities and solutions. The study found that participants spent more than twice the amount of time in exploration mode compared to acceleration mode (Barke2023, Page 16). In exploration mode, participants are more likely to prompt Copilot with comments and use the multi-suggestion pane to explore a rich body of suggestions (Barke2023, Page 18).\n\nThe study also notes that the time spent in these modes can vary based on factors such as language expertise, prior Copilot usage, the nature of the task, and the programming language. For instance, professional participants with more language expertise tend to spend more time in acceleration mode, as they are more likely to know how to solve the task in the given language (Barke2023, Page 16).",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:43:43.959578+00:00",
+    "query": "According to Liang2024, what are the top reasons developers choose to use AI tools?",
+    "retrieved_source_ids": [
+      "Liang2024",
+      "Weber2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Liang2024",
+        "title": "A Large-Scale Survey on the Usability of AI Programming Assistants",
+        "year": 2024,
+        "page": 1,
+        "authors": "Liang, J. et al.",
+        "tags": "Usability,Survey",
+        "content_snippet": "a diverse set of 410 developers. Through a mix of qualitative and\nquantitative analyses, we found that developers are most motivated\nto use AI programming assistants because they help developers\nreduce key-strokes, finish programming tasks quickly, and recall\nsyntax, but resonate less with using the..."
+      },
+      {
+        "source_id": "Liang2024",
+        "title": "A Large-Scale Survey on the Usability of AI Programming Assistants",
+        "year": 2024,
+        "page": 10,
+        "authors": "Liang, J. et al.",
+        "tags": "Usability,Survey",
+        "content_snippet": "when developers use AI programming assistants (e.g., repetitive\ncode, code with simple logic , autocomplete, recalling versus\nproof-of-concepts), why developers use these tools (e.g., autocom-\npleting (M1), finishing programming tasks faster (M2), not needing\nto go online to find code snippets (M3)..."
+      },
+      {
+        "source_id": "Liang2024",
+        "title": "A Large-Scale Survey on the Usability of AI Programming Assistants",
+        "year": 2024,
+        "page": 2,
+        "authors": "Liang, J. et al.",
+        "tags": "Usability,Survey",
+        "content_snippet": "ICSE 2024, April 14–20, 2024, Lisbon, Portugal Liang et al.\nincreasing the adoption of these tools and improving the produc-\ntivity of developers. Usability is an important factor to study in AI\nprogramming assistants, since modeling improvements may not\nnecessarily address the needs of developers,..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 23,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "advisable not to focus on just one form of presentation and interaction for LLMs in software\ndevelopment, but rather offer developers the flexibility to choose their tools according to their\nneeds from situation to situation. However, this also means that a transition between different\ninteraction f..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "According to Liang2024, the top reasons developers choose to use AI tools include the ability to reduce key-strokes, finish programming tasks quickly, and recall syntax. These motivations are primarily related to increasing efficiency and productivity in coding tasks. Developers are less motivated to use these tools for brainstorming potential solutions (Liang2024 - Page 1). Additionally, developers use AI tools for tasks such as autocompleting code, finishing programming tasks faster, and not needing to go online to find code snippets. These motivations are more frequently associated with acceleration mode, such as handling repetitive code and simple logic, rather than exploration mode, like discovering new ways to write a solution or finding edge cases (Liang2024 - Page 10).",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:43:46.782620+00:00",
+    "query": "What percentage of code generated by Copilot contained vulnerabilities in the Pearce2022 study?",
+    "retrieved_source_ids": [
+      "Yetistiren2023",
+      "Pearce2022"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Yetistiren2023",
+        "title": "Evaluating the Code Quality of AI-Assisted Code Generation Tools",
+        "year": 2023,
+        "page": 41,
+        "authors": "Yetiştiren, B. et al.",
+        "tags": "Quality,Benchmarking",
+        "content_snippet": "was implemented by Pearce et al. (2021). They evaluated the vulnerabilities in the\ncode generated by Copilot. It was determined that 40% of generated programs were\nvulnerable. These results differed from our Code Security results; we believe that the\ncharacteristics of our dataset caused the differe..."
+      },
+      {
+        "source_id": "Pearce2022",
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "year": 2022,
+        "page": 13,
+        "authors": "Pearce, H. et al.",
+        "tags": "Security,Vulnerabilities",
+        "content_snippet": "VI. D ISCUSSION\nOverall, Copilot’s response to our scenarios is mixed from a\nsecurity standpoint, given the large number of generated vul-\nnerabilities (across all axes and languages, 39.33 % of the top\nand 40.73 % of the total options were vulnerable). The security\nof the top options are particular..."
+      },
+      {
+        "source_id": "Pearce2022",
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "year": 2022,
+        "page": 5,
+        "authors": "Pearce, H. et al.",
+        "tags": "Security,Vulnerabilities",
+        "content_snippet": "scoring option was non-vulnerable (safe)). Copilot Score\nSpreads provides box-plots of the scores for the Copilot-\ngenerated options after checking whether or not each option\nmakes a non-vulnerable (N-V) or vulnerable (V) program.\nIn total, we designed 54 scenarios across 18 different\nCWEs. From the..."
+      },
+      {
+        "source_id": "Pearce2022",
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "year": 2022,
+        "page": 1,
+        "authors": "Pearce, H. et al.",
+        "tags": "Security,Vulnerabilities",
+        "content_snippet": "often contains bugs—and so, given the vast quantity of unvetted\ncode that Copilot has processed, it is certain that the language\nmodel will have learned from exploitable, buggy code. This raises\nconcerns on the security of Copilot’s code contributions. In this\nwork, we systematically investigate the..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "In the Pearce2022 study, it was found that approximately 40% of the code generated by GitHub Copilot contained vulnerabilities. Specifically, across all scenarios and languages, 39.33% of the top options and 40.73% of the total options were identified as vulnerable (Pearce2022, Page 13). Additionally, in a detailed analysis of 54 scenarios across 18 different CWEs, 44.00% of the 1084 valid programs generated were determined to contain a CWE (Pearce2022, Page 5). This consistent finding across different analyses within the study highlights a significant concern regarding the security of code generated by Copilot.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:43:49.116062+00:00",
+    "query": "Does Perry2023 find that users write more secure or less secure code with AI assistants?",
+    "retrieved_source_ids": [
+      "Perry2023"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 1,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "Do Users Write More Insecure Code with AI Assistants?\nNeil Perry∗\nStanford University\nMegha Srivastava∗\nStanford University\nDeepak Kumar\nStanford University / UC\nSan Diego\nDan Boneh\nStanford University\nABSTRACT\nAI code assistants have emerged as powerful tools that can aid in\nthe software developmen..."
+      },
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 1,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "they wrote secure code, suggesting that such tools may lead users\nto be overconfident about security flaws in their code. To better\ninform the design of future AI-based code assistants, we release our\nuser-study apparatus and anonymized data to researchers seeking\nto build on our work at this link...."
+      },
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 1,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "typically produced less secure code (Section 4). To make matters\nworse, participants that were provided access to an AI assistant\nwere more likely to believe that they wrote secure code than those\nwithout access to the AI assistant, highlighting the potential pitfalls\nof deploying such tools without..."
+      },
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 9,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "Do Users Write More Insecure Code with AI Assistants? CCS ’23, November 26–30, 2023, Copenhagen, Denmark.\n“I think I solved this task correctly”\n“I think I solved this task securely”\n“I trusted the AI to produce secure code”\nStrongly DisagreeDisagree Neither Agree Strongly Agree\nFigure 2: Participan..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "Perry2023 finds that users write less secure code when using AI assistants. The study indicates that participants with access to an AI assistant produced significantly less secure code compared to those without access to such tools (Perry2023 - Page 1). Additionally, the research highlights that users with AI assistance were more likely to believe they wrote secure code, which suggests a potential overconfidence in the security of their code when using these tools (Perry2023 - Page 1). Furthermore, the study notes that participants who used AI assistants were more likely to trust the AI to produce secure code, even when their solutions were insecure (Perry2023 - Page 9).",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:43:51.499831+00:00",
+    "query": "According to Kabir2024, what percentage of ChatGPT answers contained incorrect information?",
+    "retrieved_source_ids": [
+      "Yetistiren2023",
+      "Kabir2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Kabir2024",
+        "title": "Is Stack Overflow Obsolete? An Empirical Study of the Characteristics of ChatGPT Answers",
+        "year": 2024,
+        "page": 7,
+        "authors": "Kabir, S. et al.",
+        "tags": "Quality,Correctness",
+        "content_snippet": "Our results show that, among the 517 ChatGPT answers we labeled,\n52% of them contain incorrect information, 78% are inconsis tent\nfrom human answers, 35% lack comprehensiveness, and 77% con -\ntain redundant, irrelevant, or unnecessary information. M oreover,\non average, ChatGPT answers and human ans..."
+      },
+      {
+        "source_id": "Kabir2024",
+        "title": "Is Stack Overflow Obsolete? An Empirical Study of the Characteristics of ChatGPT Answers",
+        "year": 2024,
+        "page": 7,
+        "authors": "Kabir, S. et al.",
+        "tags": "Quality,Correctness",
+        "content_snippet": "in ChatGPT Answers\nOur thematic analysis reveals four types of incorrectness in Chat-\nGPT answers— Conceptual (54%), Factual (36%), Code (28%) and Ter-\nminology (12%) errors. Note that these errors are not mutually ex-\nclusive. Some answers have more than one of these errors. Factual\nerrors occur wh..."
+      },
+      {
+        "source_id": "Kabir2024",
+        "title": "Is Stack Overflow Obsolete? An Empirical Study of the Characteristics of ChatGPT Answers",
+        "year": 2024,
+        "page": 10,
+        "authors": "Kabir, S. et al.",
+        "tags": "Quality,Correctness",
+        "content_snippet": "Additionally, 5 participants found unexpected or impossible errors\nas a helpful factor in identifying the machine-generated an swers.\nApart from these, tricks and insights that only experienced people\ncan provide (5 out of 12 participants), and high entropy gene ra-\ntion (1 out of 12 participants) w..."
+      },
+      {
+        "source_id": "Yetistiren2023",
+        "title": "Evaluating the Code Quality of AI-Assisted Code Generation Tools",
+        "year": 2023,
+        "page": 13,
+        "authors": "Yetiştiren, B. et al.",
+        "tags": "Quality,Benchmarking",
+        "content_snippet": "code was generated with a correctness score in the interval of75% ≥ CCS i > 50%,\n37.9% of the time. The next interval contained the partially correct code generations\nwith a score of21.2%, belonging to the interval of50% ≥ CCS i > 25%. For the last\ninterval of25% ≥ CCS i > 0%, the score was25.7%. Ad..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "According to Kabir2024, more than half of the ChatGPT answers, specifically 52%, contained incorrect information (Kabir2024).",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:43:53.169079+00:00",
+    "query": "Did Yetistiren2023 find that AI-generated code is more maintainable than human code?",
+    "retrieved_source_ids": [
+      "Yetistiren2023",
+      "Vaithilingam2022"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Yetistiren2023",
+        "title": "Evaluating the Code Quality of AI-Assisted Code Generation Tools",
+        "year": 2023,
+        "page": 42,
+        "authors": "Yetiştiren, B. et al.",
+        "tags": "Quality,Benchmarking",
+        "content_snippet": "42 Burak Yetiştiren et al.\nFor code understandability, they determined that there was no statistical significance\nbetween the programming languages.\nMastropaolo et al. (2023) presented an empirical study that focuses on the effect of\nsemantic-preserving changes in the natural language on the generat..."
+      },
+      {
+        "source_id": "Yetistiren2023",
+        "title": "Evaluating the Code Quality of AI-Assisted Code Generation Tools",
+        "year": 2023,
+        "page": 1,
+        "authors": "Yetiştiren, B. et al.",
+        "tags": "Quality,Benchmarking",
+        "content_snippet": "Noname manuscript No.\n(will be inserted by the editor)\nEvaluating the Code Quality of AI-Assisted Code\nGeneration Tools: An Empirical Study on GitHub Copilot,\nAmazon CodeWhisperer, and ChatGPT\nBurak Yetiştiren· Işık Özsoy· Miray\nAyerdem · Eray Tüzün\nthe date of receipt and acceptance should be inser..."
+      },
+      {
+        "source_id": "Yetistiren2023",
+        "title": "Evaluating the Code Quality of AI-Assisted Code Generation Tools",
+        "year": 2023,
+        "page": 41,
+        "authors": "Yetiştiren, B. et al.",
+        "tags": "Quality,Benchmarking",
+        "content_snippet": "models that OpenAI previously developed for natural language generation. The public\ncode available on GitHub was used here while fine-tuning the model to implement the\ncode recognition and generation capabilities. This model can recognize other elements\nsuch as function signatures, code comments, et..."
+      },
+      {
+        "source_id": "Vaithilingam2022",
+        "title": "Expectation vs. Experience: Evaluating the Usability of Code Generation Tools",
+        "year": 2022,
+        "page": 2,
+        "authors": "Vaithilingam, P. et al.",
+        "tags": "Usability,Debugging",
+        "content_snippet": "also suffer from inherent uncertainty and imperfection. They may\ninevitably generate code with errors or even code that wildly differs\nfrom users’ expectations. However, unlike other domains, code\ngeneration demands a much higher level of correctness: code either\ncompiles or not, and it is either co..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "I cannot find evidence in the provided corpus to answer whether Yetistiren2023 found that AI-generated code is more maintainable than human code. The context mentions that Yetistiren2023 evaluated code maintainability among other metrics, but it does not provide specific findings or comparisons between AI-generated and human-written code regarding maintainability (Yetistiren2023, Source 2; Source 3).",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:43:57.626512+00:00",
+    "query": "What specific security vulnerabilities (CWEs) were most common in Pearce2022's analysis?",
+    "retrieved_source_ids": [
+      "Pearce2022"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Pearce2022",
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "year": 2022,
+        "page": 3,
+        "authors": "Pearce, H. et al.",
+        "tags": "Security,Vulnerabilities",
+        "content_snippet": "“class” CVE-400: Uncontrolled Resource Consumption, as\nthe user can command how much memory will be allocated.\nThis code has other vulnerabilities as well: as the code scans\nwith %d—even though the variable is deﬁned as an ‘unsigned\nint’—entering a negative value (e.g. −1) will cause an integer\nwrap..."
+      },
+      {
+        "source_id": "Pearce2022",
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "year": 2022,
+        "page": 15,
+        "authors": "Pearce, H. et al.",
+        "tags": "Security,Vulnerabilities",
+        "content_snippet": "Veriﬁcation of Secure Processor Architectures,” in Proceedings of the\n8th International Workshop on Hardware and Architectural Support for\nSecurity and Privacy . Phoenix AZ USA: ACM, Jun. 2019, pp. 1–8.\n[Online]. Available: https://dl.acm.org/doi/10.1145/3337167.3337174\nAPPENDIX\nRationale for Exclud..."
+      },
+      {
+        "source_id": "Pearce2022",
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "year": 2022,
+        "page": 11,
+        "authors": "Pearce, H. et al.",
+        "tags": "Security,Vulnerabilities",
+        "content_snippet": "CWEs. Ideally, with the advent of hardware CWEs, tools and\nprocesses may be developed as they have been in software.\nUnlike software CWEs, MITRE does not yet produce a\n“CWE Top 25” list for hardware. Given this, and the lack of\nautomated tooling, we chose six hardware CWEs that we could\nmanually ana..."
+      },
+      {
+        "source_id": "Pearce2022",
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "year": 2022,
+        "page": 15,
+        "authors": "Pearce, H. et al.",
+        "tags": "Security,Vulnerabilities",
+        "content_snippet": "this CWE, especially given that this CWE is a parent of\nCWE-306 and CWE-522. We thus do not analyze this CWE.\nCWE-862: Missing Authorization . This class-type CWE\ndescribes scenarios where no authorization check is performed\nwhen users attempt to access critical resources or perform\nsensitive action..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "In Pearce2022's analysis, several specific security vulnerabilities, known as Common Weakness Enumerations (CWEs), were identified as common. The study found that out of 198 programs generated by GitHub Copilot, 56 (28.28%) were vulnerable. Among the scenarios designed for hardware CWEs, 7 out of 18 (38.89%) had vulnerable top-scoring options (Pearce2022 - Page 11). \n\nThe analysis specifically mentions CWE-1234, which involves hardware internal or debug modes allowing override of locks, as a notable vulnerability (Pearce2022 - Page 11). Additionally, the study discusses the exclusion of certain CWEs from analysis due to their architectural nature or the need for context beyond the source code, such as CWE-352 (Cross-Site Request Forgery), CWE-862 (Missing Authorization), and CWE-276 (Incorrect Default Permissions) (Pearce2022 - Page 15). These exclusions highlight the complexity and context-dependence of certain vulnerabilities that were not the focus of the study.\n\nOverall, the study emphasizes the presence of vulnerabilities in the code generated by Copilot, particularly in scenarios involving hardware CWEs, but does not provide a comprehensive list of the most common CWEs beyond those mentioned (Pearce2022 - Page 11, Page 15).",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:44:00.071871+00:00",
+    "query": "How does the use of Generative AI affect student frustration levels according to Choudhuri2024?",
+    "retrieved_source_ids": [
+      "Hashmi2024",
+      "Choudhuri2024",
+      "Hou2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Hashmi2024",
+        "title": "Generative AI's impact on programming students: frustration and confidence",
+        "year": 2024,
+        "page": 10,
+        "authors": "Hashmi, N. et al.",
+        "tags": "Education,Psychology",
+        "content_snippet": "psychological responses to the use of generative AI tools in educational settings specific to programming. \nThe results of this study have several implications for educators aiming to teach programming using GenAI \ntools. First, understanding that different learning styles and levels of GenAI tool u..."
+      },
+      {
+        "source_id": "Choudhuri2024",
+        "title": "How Far Are We? The Triumphs and Trials of Generative AI in Learning Software Engineering",
+        "year": 2024,
+        "page": 1,
+        "authors": "Choudhuri, R. et al.",
+        "tags": "Education,Skill_Decay",
+        "content_snippet": "convo-genAI platform, in assisting students in SE tasks. Our study\ndid not find statistical differences in participants’ productivity or\nself-efficacy when using ChatGPT as compared to traditional re-\nsources, but we found significantly increased frustration levels.\nOur study also revealed 5 distinc..."
+      },
+      {
+        "source_id": "Hashmi2024",
+        "title": "Generative AI's impact on programming students: frustration and confidence",
+        "year": 2024,
+        "page": 2,
+        "authors": "Hashmi, N. et al.",
+        "tags": "Education,Psychology",
+        "content_snippet": "addition, students’ awareness and exposure to GenAI technologies may also have an impact on this learning. \nIn this paper, we used a survey methodology in multiple sections of a Graduate course to better understand \nhow students’ learning styles and GenAI us age impacts their confidence and frustrat..."
+      },
+      {
+        "source_id": "Hou2024",
+        "title": "The Effects of Generative AI on Computing Students' Help-Seeking Preferences",
+        "year": 2024,
+        "page": 1,
+        "authors": "Hou, I. et al.",
+        "tags": "Education,Help_Seeking",
+        "content_snippet": "vary across tasks for computing students after the advent of\nGenerative AI?\nRQ 2: What factor(s) may have influenced computing students’\ndecisions in using (or not using) generative AI tools over\nother existing resources?\nRQ 3: How do generative AI tools compare with other resources\nalong perceived..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "According to Choudhuri2024, the use of Generative AI, specifically ChatGPT, in learning software engineering tasks did not result in statistical differences in participants' productivity or self-efficacy compared to traditional resources. However, the study found that there were significantly increased frustration levels among participants when using ChatGPT (Choudhuri2024).",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:44:00.968340+00:00",
+    "query": "What is the 'illusion of competence' or metacognitive difficulty described in Prather2023?",
+    "retrieved_source_ids": [
+      "Choudhuri2024",
+      "Barke2023",
+      "Hou2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Hou2024",
+        "title": "The Effects of Generative AI on Computing Students' Help-Seeking Preferences",
+        "year": 2024,
+        "page": 8,
+        "authors": "Hou, I. et al.",
+        "tags": "Education,Help_Seeking",
+        "content_snippet": "discern between correct and incorrect responses. This skepticism\nis a promising finding given the widespread fears about students\nblindly relying on these tools [3, 70].\nConversely, experienced students were more lenient with the\nmodels. Students mentioned the necessity of applying their own\ndomain..."
+      },
+      {
+        "source_id": "Choudhuri2024",
+        "title": "How Far Are We? The Triumphs and Trials of Generative AI in Learning Software Engineering",
+        "year": 2024,
+        "page": 9,
+        "authors": "Choudhuri, R. et al.",
+        "tags": "Education,Skill_Decay",
+        "content_snippet": "mance levels and uncertainty, which led to self-doubt and possibly\nlowered their self-efficacy: “I got confused over suggestions...I may\nhave asked something wrong. (PT-2)”, “I’m not super sure why this\ndidn’t work (PT-3)”. When participants were uncertain, they had\nto use their own experience (C5)..."
+      },
+      {
+        "source_id": "Choudhuri2024",
+        "title": "How Far Are We? The Triumphs and Trials of Generative AI in Learning Software Engineering",
+        "year": 2024,
+        "page": 7,
+        "authors": "Choudhuri, R. et al.",
+        "tags": "Education,Skill_Decay",
+        "content_snippet": "gave a piece of incorrect advice: “It couldn’t figure out test case 3\nand kept telling me to check my drivers...without realizing there were\nmissing imports (PT-8)”. ChatGPT often “did not account for errors\nin [solutions] it provided (PT-7)”. It also suggested “incorrect ways\nto fix [problems] (PT-..."
+      },
+      {
+        "source_id": "Barke2023",
+        "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
+        "year": 2023,
+        "page": 26,
+        "authors": "Barke, S. et al.",
+        "tags": "HCI,Interaction_Modes",
+        "content_snippet": "arXiv:1706.03762 [cs].\nRegina Vollmeyer and Falko Rheinberg. 2006. Motivational Effects on Self-Regulated Learning with Different Tasks.\nEducational Psychology Review 18, 3 (Nov 2006), 239–253. https://doi.org/10.1007/s10648-006-9017-0\nChenglong Wang, Yu Feng, Rastislav Bodik, Isil Dillig, Alvin Che..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "I cannot find evidence in the provided corpus to answer this.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:44:06.328450+00:00",
+    "query": "Does Hashmi2024 suggest that AI increases or decreases student confidence?",
+    "retrieved_source_ids": [
+      "Vaithilingam2022",
+      "Hashmi2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Vaithilingam2022",
+        "title": "Expectation vs. Experience: Evaluating the Usability of Code Generation Tools",
+        "year": 2022,
+        "page": 2,
+        "authors": "Vaithilingam, P. et al.",
+        "tags": "Usability,Debugging",
+        "content_snippet": "the system increased unless an explanation was provided. However,\nthese explanations may also lead to over-reliance on the system\neven when unwarranted, signaling the importance and difficulty\nof providing explanations that help people to calibrate trust appro-\npriately. Kocielnik et al. [23] examin..."
+      },
+      {
+        "source_id": "Hashmi2024",
+        "title": "Generative AI's impact on programming students: frustration and confidence",
+        "year": 2024,
+        "page": 8,
+        "authors": "Hashmi, N. et al.",
+        "tags": "Education,Psychology",
+        "content_snippet": "Issues in Information Systems \nVolume 25, Issue 3, pp. 371-385, 2024  \n \n \n378 \n \nTable 1: ‘Confidence’ OLS Regression Model Results \nR-squared: 0.2690 F-statistic: 2.5170 \nAdj. R-squared: 0.1620 Prob (F-statistic): 0.0363 \n \n Coefficient Standard Error P>|t| \nConst 2.8746 0.1357 0.0000 \nMinimalist..."
+      },
+      {
+        "source_id": "Hashmi2024",
+        "title": "Generative AI's impact on programming students: frustration and confidence",
+        "year": 2024,
+        "page": 3,
+        "authors": "Hashmi, N. et al.",
+        "tags": "Education,Psychology",
+        "content_snippet": "Confidence in Using GenAI for Programming  \n \nConfidence in learning programming is a crucial factor influencing students' ability to successfully engage \nwith computer science education. Several studies highlight how educational approaches and psychological \nreadiness impact this confidence. For in..."
+      },
+      {
+        "source_id": "Hashmi2024",
+        "title": "Generative AI's impact on programming students: frustration and confidence",
+        "year": 2024,
+        "page": 15,
+        "authors": "Hashmi, N. et al.",
+        "tags": "Education,Psychology",
+        "content_snippet": "Leveraging generative artificial intelligence in computer science education. In Proceedings of the \n55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024) (p. 1927). \nAssociation for Computing Machinery. https://doi.org/10.1145/3626253.3635427 \n \nPutnam, A., Deng, W., & DeSoto..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "Hashmi2024 suggests that AI increases student confidence. The study found that certain learner types, such as \"Comprehensive Learner,\" \"Seer Doer,\" \"Moderate User,\" and \"Student Expert,\" strongly predicted confidence when using generative AI tools for programming (Hashmi2024, Page 8). Additionally, the text likens GenAI tools to 'pair programming,' which is known to enhance confidence among students, particularly those with initially low confidence levels (Hashmi2024, Page 3). This indicates that the use of AI tools in programming can significantly enhance the user experience and boost confidence, especially for new users.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:44:07.863464+00:00",
+    "query": "What are the 'cognitive costs' of validating AI code mentioned in Mozannar2024?",
+    "retrieved_source_ids": [
+      "Mozannar2024",
+      "Liang2024",
+      "Peng2023",
+      "Perry2023"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Peng2023",
+        "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+        "year": 2023,
+        "page": 10,
+        "authors": "Peng, S. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "[Mozannar et al., 2022] Mozannar, H., Bansal, G., Fourney, A., and Horvitz, E. (2022). Read-\ning between the lines: Modeling user behavior and costs in ai-assisted programming. arXiv\npreprint arXiv:2210.14306.\n[Nguyen and Nadi, 2022] Nguyen, N. and Nadi, S. (2022). An empirical evaluation of github..."
+      },
+      {
+        "source_id": "Liang2024",
+        "title": "A Large-Scale Survey on the Usability of AI Programming Assistants",
+        "year": 2024,
+        "page": 9,
+        "authors": "Liang, J. et al.",
+        "tags": "Usability,Survey",
+        "content_snippet": "ticipants requested AI programming assistants to generate code that\naddressed non-functional requirements, such as \"time complexity\"\n(P191). Other participants wanted more readable code:\n Sometimes AI suggest code [with] one lines or short hand logic,\nwhich is difficult to read and understand. \" (P9..."
+      },
+      {
+        "source_id": "Mozannar2024",
+        "title": "Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming",
+        "year": 2024,
+        "page": 6,
+        "authors": "Mozannar, H. et al.",
+        "tags": "Productivity,Cognitive_Load",
+        "content_snippet": "study the new costs of interaction introduced by the AI system.We recognize that this\napproach is incomplete: the costs associated with solving programming tasks are multi-dimensional,\nand it can be challenging to assign a single real-valued number to cover all facets of the task Forsgren\net al. [20..."
+      },
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 13,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "Do Users Write More Insecure Code with AI Assistants? CCS ’23, November 26–30, 2023, Copenhagen, Denmark.\nor usage. Ensuring that cryptography library defaults are secure,\neducating users on how to interact with and test an AI assistant [9],\nand providing integrated warnings and potential validation..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "I cannot find evidence in the provided corpus to answer this.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:44:11.343826+00:00",
+    "query": "Does the corpus provide evidence that relying on AI leads to a decline in problem-solving skills?",
+    "retrieved_source_ids": [
+      "Choudhuri2024",
+      "Perry2023",
+      "Peng2023",
+      "Weber2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 12,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "assistant was involved in at least as many mistakes as a participant\nand often the majority of mistakes, strengthening our finding that\nrelying on AI assistance may lead to more security mistakes.\n7.2 Limitations\nOne important limitation of our results is that our participant group\nconsisted mainly..."
+      },
+      {
+        "source_id": "Peng2023",
+        "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+        "year": 2023,
+        "page": 8,
+        "authors": "Peng, S. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "vary across speciﬁc tasks and programming languages, so more research is needed to understand\nhow our results generalizes to other tasks. Finally, this study does not examine the effects of\nAI on code quality. AI assistance can increase code quality if it suggests code better than the\nprogrammer wri..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 22,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "While these types of interaction may come naturally, experience with AI systems does seem to\naffect working practices. While the less experienced participants sometimes struggled to get the\nAI to generate well-integrated code, the more experienced users appear to be familiar with the\nidea that they..."
+      },
+      {
+        "source_id": "Choudhuri2024",
+        "title": "How Far Are We? The Triumphs and Trials of Generative AI in Learning Software Engineering",
+        "year": 2024,
+        "page": 9,
+        "authors": "Choudhuri, R. et al.",
+        "tags": "Education,Skill_Decay",
+        "content_snippet": "queries, this approach conflicts with the traditional goals of edu-\ncation. Directly giving away answers can diminish the need for\ncritical thinking and impact learning, potentially leading to reduced\nself-efficacy [30] and motivation [25]. In our study, we observed\nthat participants’ self-efficacy..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "The corpus provides some evidence suggesting that relying on AI may lead to a decline in problem-solving skills. Choudhuri2024 discusses how the use of generative AI in educational settings can conflict with traditional educational goals by directly providing answers, which may diminish the need for critical thinking and impact learning. This can potentially lead to reduced self-efficacy and motivation, as students might view these tools as advanced search engines offering ready-made solutions, thereby impeding genuine learning (Choudhuri2024). This suggests a potential decline in problem-solving skills as students may become less inclined to engage in critical thinking when AI provides direct answers.\n\nHowever, it is important to note that the corpus does not provide extensive evidence on this topic, and further research is needed to fully understand the impact of AI on problem-solving skills. The evidence provided is primarily focused on educational settings and may not fully represent the broader implications for professional software developers.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:44:13.612810+00:00",
+    "query": "Compare the findings of Peng2023 and Perry2023 regarding the trade-off between speed and security.",
+    "retrieved_source_ids": [
+      "Yetistiren2023",
+      "Pearce2022",
+      "Perry2023"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Yetistiren2023",
+        "title": "Evaluating the Code Quality of AI-Assisted Code Generation Tools",
+        "year": 2023,
+        "page": 41,
+        "authors": "Yetiştiren, B. et al.",
+        "tags": "Quality,Benchmarking",
+        "content_snippet": "was implemented by Pearce et al. (2021). They evaluated the vulnerabilities in the\ncode generated by Copilot. It was determined that 40% of generated programs were\nvulnerable. These results differed from our Code Security results; we believe that the\ncharacteristics of our dataset caused the differe..."
+      },
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 8,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "CCS ’23, November 26–30, 2023, Copenhagen, Denmark. Neil Perry, Megha Srivastava, Deepak Kumar, and Dan Boneh\nauth padding trivial mode library0\n20\n40\n60% with source type\nControl\nExperiment\n(a) Q1 Mistakes: Encryption/Decryption\nrandomness0\n20\n40\n60% with source type (b) Q2 Mistakes: Signing a Mess..."
+      },
+      {
+        "source_id": "Pearce2022",
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "year": 2022,
+        "page": 15,
+        "authors": "Pearce, H. et al.",
+        "tags": "Security,Vulnerabilities",
+        "content_snippet": "“Hardware Penetration Testing Knocks Your SoCs Off,” IEEE Design\nTest, vol. 38, no. 1, pp. 14–21, Feb. 2021, conference Name: IEEE\nDesign Test.\n[27] G. Nichols, “RTL Linting Sign Off - Ascent Lint.” [Online]. Available:\nhttps://www.realintent.com/rtl-linting-ascent-lint/\n[28] “Verilator User’s Guide..."
+      },
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 3,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "(11-14 minutes)— except for Question 5, where they took more\nthan twice as long (31 minutes)— with a maximum allotment of\ntwo hours. To account for potential fatigue in our analysis, we\nrandomized question ordering for each participant. Participants\nwere allowed to leave the study early and we did n..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "I cannot find evidence in the provided corpus to answer this. The context does not include any information from a source titled \"Peng2023,\" and therefore, I cannot compare its findings with those of Perry2023 regarding the trade-off between speed and security. The available context from Perry2023 discusses user trust and security mistakes in AI-assisted code but does not provide a direct comparison with any findings from Peng2023.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:44:15.474782+00:00",
+    "query": "Do Liang2024 and Vaithilingam2022 agree on why developers struggle with AI tools?",
+    "retrieved_source_ids": [
+      "Liang2024",
+      "Weber2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Liang2024",
+        "title": "A Large-Scale Survey on the Usability of AI Programming Assistants",
+        "year": 2024,
+        "page": 1,
+        "authors": "Liang, J. et al.",
+        "tags": "Usability,Survey",
+        "content_snippet": "a diverse set of 410 developers. Through a mix of qualitative and\nquantitative analyses, we found that developers are most motivated\nto use AI programming assistants because they help developers\nreduce key-strokes, finish programming tasks quickly, and recall\nsyntax, but resonate less with using the..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 23,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "necessary for a broad adoption and long term benefits of AI-powered support tools.\n5.4 Limitations\nConsidering that the sample of participants in our study leans towards the younger side, they may\nbe particularly affected by these current developments: If younger developers learn to program with\nthe..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 23,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "advisable not to focus on just one form of presentation and interaction for LLMs in software\ndevelopment, but rather offer developers the flexibility to choose their tools according to their\nneeds from situation to situation. However, this also means that a transition between different\ninteraction f..."
+      },
+      {
+        "source_id": "Liang2024",
+        "title": "A Large-Scale Survey on the Usability of AI Programming Assistants",
+        "year": 2024,
+        "page": 11,
+        "authors": "Liang, J. et al.",
+        "tags": "Usability,Survey",
+        "content_snippet": "For researchers & tool creators. The results from our study reveal\nseveral interesting directions for future research, which could be\nincorporated into AI programming assistants. For example, given\nparticipants’ reliance on ChatGPT andnatural language inter-\nactions, future work could investigate me..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "I cannot find evidence in the provided corpus to answer this. The context only includes information from Liang2024 and does not provide any details from Vaithilingam2022. Therefore, I cannot determine if Liang2024 and Vaithilingam2022 agree on why developers struggle with AI tools.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:44:16.464013+00:00",
+    "query": "What does the corpus say about the impact of AI on 'Code Churn'?",
+    "retrieved_source_ids": [
+      "Peng2023",
+      "Weber2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Peng2023",
+        "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+        "year": 2023,
+        "page": 2,
+        "authors": "Peng, S. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "in professional contexts, cf. [Mozannar et al., 2022, Vaithilingam et al., 2022, Ziegler et al., 2022].\nThe potential productivity impacts of AI have major implications for the labor market and\nﬁrms, including changes in employment, skills, and ﬁrm organization [Raj and Seamans, 2018,\nAgrawal et al...."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 22,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "software development. Not only does this mean that new tools may emerge that upset established\npatterns again, but it will also affect how developers use these tools. Given more time to get familiar\nwith them, developers may explore and refine usage patterns, learn the intricacies of these systems,..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 12,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "Since code can also be automatically generated in our study, we make sure to differentiate from\nwhere the input is coming from, i.e., whether it was a genuine interaction by the user or generated\nby a support mechanism. We therefore consider the percentage of code that was written by the\nhuman, as o..."
+      },
+      {
+        "source_id": "Peng2023",
+        "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+        "year": 2023,
+        "page": 9,
+        "authors": "Peng, S. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "[Chen et al., 2021] Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. d. O., Kaplan, J.,\nEdwards, H., Burda, Y ., Joseph, N., Brockman, G., et al. (2021). Evaluating large language\nmodels trained on code. arXiv preprint arXiv:2107.03374.\n[Finnie-Ansley et al., 2022] Finnie-Ansley, J., Denny, P.,..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "I cannot find evidence in the provided corpus to answer this.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:44:19.212909+00:00",
+    "query": "Does the corpus contain evidence about the impact of AI on cooking recipes? (Edge Case)",
+    "retrieved_source_ids": [
+      "Perry2023",
+      "Peng2023",
+      "Weber2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Peng2023",
+        "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+        "year": 2023,
+        "page": 2,
+        "authors": "Peng, S. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "in professional contexts, cf. [Mozannar et al., 2022, Vaithilingam et al., 2022, Ziegler et al., 2022].\nThe potential productivity impacts of AI have major implications for the labor market and\nﬁrms, including changes in employment, skills, and ﬁrm organization [Raj and Seamans, 2018,\nAgrawal et al...."
+      },
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 7,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "Do Users Write More Insecure Code with AI Assistants? CCS ’23, November 26–30, 2023, Copenhagen, Denmark.\nwe observe no difference between experiment and control groups\nwith respect to correctness) but often fails to cover edge cases.\nSpecifically, outputs from the AI assistant frequently checked if..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 5,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "are all differently affected by the use of AI assistants. Table 1 provides an overview of these and\nfurther studies, which study various aspects of productivity in AI-assisted programming. From\nour findings in the literature, we concluded that most research so far has focused on individual\nAI assist..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 22,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "While these types of interaction may come naturally, experience with AI systems does seem to\naffect working practices. While the less experienced participants sometimes struggled to get the\nAI to generate well-integrated code, the more experienced users appear to be familiar with the\nidea that they..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "I cannot find evidence in the provided corpus to answer this. The context provided focuses on the impact of AI on software development, particularly in terms of productivity and security, and does not address the impact of AI on cooking recipes.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T02:44:20.207178+00:00",
+    "query": "What is the impact of AI on C++ specifically versus Python? (Edge Case)",
+    "retrieved_source_ids": [
+      "Hashmi2024",
+      "Barke2023",
+      "Peng2023",
+      "Weber2024"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Peng2023",
+        "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+        "year": 2023,
+        "page": 8,
+        "authors": "Peng, S. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "vary across speciﬁc tasks and programming languages, so more research is needed to understand\nhow our results generalizes to other tasks. Finally, this study does not examine the effects of\nAI on code quality. AI assistance can increase code quality if it suggests code better than the\nprogrammer wri..."
+      },
+      {
+        "source_id": "Barke2023",
+        "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
+        "year": 2023,
+        "page": 1,
+        "authors": "Barke, S. et al.",
+        "tags": "HCI,Interaction_Modes",
+        "content_snippet": "finally seems within reach. OpenAI’s Codex model [Chen et al. 2021], which contains 12 billion\nmodel parameters and is trained on 54 million software repositories on GitHub, is able to correctly\nsolve 30–70% of novel Python problems, while DeepMind’s AlphaCode [Li et al. 2022] ranked in the\ntop 54.3..."
+      },
+      {
+        "source_id": "Hashmi2024",
+        "title": "Generative AI's impact on programming students: frustration and confidence",
+        "year": 2024,
+        "page": 2,
+        "authors": "Hashmi, N. et al.",
+        "tags": "Education,Psychology",
+        "content_snippet": "that will accelerate both programmer learning and new code development. In this way, these tools help \nnovice programmers build their digital literacy on complex topics and enhance their coding skills, especially \nwhen writing software using high-level languages like Python, that may have otherwise..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 3,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "affect them.\n2.1 AI-Assisted Programming\nAutomated code completion is a technology that has been used in one way or another for many\nyears. While single statement auto-complete with syntactically valid expressions is likely the most\ncommon way, e.g., Microsoft’s IntelliSense, there are other forms a..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "I cannot find evidence in the provided corpus to answer this. The context does not specifically address the impact of AI on C++ versus Python.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T03:20:49.618005+00:00",
+    "query": "What are the security risks?",
+    "retrieved_source_ids": [
+      "Perry2023",
+      "Pearce2022",
+      "Yetistiren2023"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 5,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "files outside of “/safedir”\n• Unknown if the security of the answer cannot be determined\n(i.e. the function call is undefined or not imported)\n1Security was captured in the definition, making it difficult to disentangle correctness\nand security. We define correctness as the successful opening of fil..."
+      },
+      {
+        "source_id": "Pearce2022",
+        "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+        "year": 2022,
+        "page": 8,
+        "authors": "Pearce, H. et al.",
+        "tags": "Security,Vulnerabilities",
+        "content_snippet": "malicious users upload ‘dangerous’ ﬁles to a product’s\nenvironment. As the deﬁnition of ‘dangerous’ differs depends\non the application, and includes nebulous properties such as\nﬁle type and ﬁle size, we considered three scenarios: 434-0\nrequests code for a web endpoint that should only accept and\nsa..."
+      },
+      {
+        "source_id": "Perry2023",
+        "title": "Do Users Write More Insecure Code with AI Assistants?",
+        "year": 2023,
+        "page": 4,
+        "authors": "Perry, N. et al.",
+        "tags": "Security,User_Study",
+        "content_snippet": "any collected data in an IRB-approved consent form participants\nsigned prior to participating in the study. Participants were also\ninformed that “your decision to participate in this study will not\naffect your employment with Stanford or your grades in school” on\nthe consent form signed prior to par..."
+      },
+      {
+        "source_id": "Yetistiren2023",
+        "title": "Evaluating the Code Quality of AI-Assisted Code Generation Tools",
+        "year": 2023,
+        "page": 9,
+        "authors": "Yetiştiren, B. et al.",
+        "tags": "Quality,Benchmarking",
+        "content_snippet": "use SonarQube’s Security Module to assess code security. This module calculates the\nnumber of vulnerabilities in a given code. To assess code maintainability, SonarQube\n10 https://github.com/mirayayerdem/Github-Copilot-Amazon-Whisperer-\nChatGPT/blob/main/misc/All_Experiment_Results.xlsx\n11 sonarqube..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "The security risks associated with AI-assisted code generation, as discussed in the provided sources, include several vulnerabilities and potential for insecure code practices.\n\n1. **Vulnerable Code Generation**: GitHub Copilot, an AI code assistant, has been shown to generate vulnerable code in certain scenarios. For instance, it performed poorly in generating secure code for web endpoints that should only accept specific file types and sizes, such as PDF files or JPG images. In these cases, Copilot generated code that was vulnerable, failing to enforce necessary security constraints (Pearce2022).\n\n2. **Missing Authentication**: Another identified risk is the generation of code with missing authentication for critical functions. This vulnerability, categorized under CWE-306, involves scenarios where the software does not authenticate functions that require user identity or consume significant computing resources. This lack of authentication can lead to unauthorized access and potential exploitation (Pearce2022).\n\n3. **Security Mistakes from AI Assistance**: In a study examining the security of code written with AI assistance, it was found that participants made security mistakes, which were analyzed to determine whether they originated from the AI or the user. This indicates that AI assistance can contribute to security errors, either by suggesting insecure code or by influencing users to overlook security best practices (Perry2023).\n\nThese findings highlight the importance of careful evaluation and oversight when using AI tools for code generation, as they can introduce significant security risks if not properly managed.",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  },
+  {
+    "timestamp": "2026-02-16T03:24:54.887389+00:00",
+    "query": "What is the impact of AI on C++ specifically versus Python?",
+    "retrieved_source_ids": [
+      "Barke2023",
+      "Weber2024",
+      "Liang2024",
+      "Peng2023"
+    ],
+    "retrieved_chunks": [
+      {
+        "source_id": "Liang2024",
+        "title": "A Large-Scale Survey on the Usability of AI Programming Assistants",
+        "year": 2024,
+        "page": 1,
+        "authors": "Liang, J. et al.",
+        "tags": "Usability,Survey",
+        "content_snippet": "that AI programming assistants are powerful enough to produce\nhigh-quality code suggestions for developers [59, 61]. While some\nrecent studies do not find any significant difference in using AI pro-\ngramming assistants in terms of task completion [56, 60] and code\nquality [29], other studies find th..."
+      },
+      {
+        "source_id": "Barke2023",
+        "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
+        "year": 2023,
+        "page": 1,
+        "authors": "Barke, S. et al.",
+        "tags": "HCI,Interaction_Modes",
+        "content_snippet": "finally seems within reach. OpenAI’s Codex model [Chen et al. 2021], which contains 12 billion\nmodel parameters and is trained on 54 million software repositories on GitHub, is able to correctly\nsolve 30–70% of novel Python problems, while DeepMind’s AlphaCode [Li et al. 2022] ranked in the\ntop 54.3..."
+      },
+      {
+        "source_id": "Peng2023",
+        "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+        "year": 2023,
+        "page": 1,
+        "authors": "Peng, S. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "pair programmers to help people transition into software development careers.\nIntroduction\nArtiﬁcial intelligence (AI) applications hold promise to increase human productivity. A va-\nriety of AI models have demonstrated human-level capabilities in ﬁelds ranging from natural\nlanguage understanding to..."
+      },
+      {
+        "source_id": "Weber2024",
+        "title": "Significant Productivity Gains through Programming with Large Language Models",
+        "year": 2024,
+        "page": 22,
+        "authors": "Weber, T. et al.",
+        "tags": "Productivity,Quantitative",
+        "content_snippet": "While these types of interaction may come naturally, experience with AI systems does seem to\naffect working practices. While the less experienced participants sometimes struggled to get the\nAI to generate well-integrated code, the more experienced users appear to be familiar with the\nidea that they..."
+      }
+    ],
+    "retrieved_count": 4,
+    "full_response": "I cannot find evidence in the provided corpus to answer this question specifically about the impact of AI on C++ versus Python. The context does not provide a direct comparison or specific insights into how AI impacts these two programming languages differently. The available sources discuss AI programming assistants in general and mention Python in passing, but do not provide a detailed analysis or comparison with C++ (Liang2024; Barke2023; Peng2023; Weber2024).",
+    "model_name": "gpt-4o",
+    "retrieval_method": "MMR + CrossEncoder"
+  }
+]
